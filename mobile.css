@@ -1,4 +1,4 @@
-@media(max-width:700px){
+@media(max-width:760px){
 
     html,body{
         overflow-x:hidden ;
@@ -92,6 +92,11 @@
            #chat{
            height: 40px;
            bottom: -55px;
+           position: absolute;
+           bottom: 5px;
+        }
+        .card-item>p{
+            font-size: small;
         }
 
 }
