@@ -42,7 +42,7 @@ outline: none;
 #eng{
 position: absolute;
 right:20px;
-top:80px;
+top:90px;
 background: 
 #FFA245;
 box-sizing: border-box;
@@ -57,10 +57,12 @@ border-radius: 50%;
 }
 
 .c1>.row>.col-lg-6>h1{
-    white-space: nowrap;
+    
     font-weight: 650;
     text-align: left;
+    width: 100%;
 }
+
 .c1>.row>.col-lg-6>h1>b>span{
 color: #FFA245;
 }
@@ -73,10 +75,13 @@ color: #FFA245;
     border-radius:32px;
     color: white;
    padding: 4% 10% 4% 10%;
+   width:200px;
+   height: 65px;
+
 }
 .playbtn{
-    height: 60px;
-    width: 60px;
+    height:60px;
+    width:60px;
     color: #FFA245;
     border-radius: 50%;
     border: none;
@@ -90,11 +95,14 @@ color: #FFA245;
 }
 .playbtn:hover{
     background: black;
+    
 }
 .btns{
     display: flex;
     justify-content:left;
     align-items: center;
+   
+    
 }
 /* C2 start */
 .container>.row{
