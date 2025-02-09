@@ -144,6 +144,9 @@ color: #FFA245;
 .c6>.r2{
     text-align: left;
 }
+.c7>.row>.col-lg-5>img{
+    width: 100%;
+}
 .c7>.row>.col-lg-5{
     text-align: left;
 }
@@ -168,7 +171,9 @@ color: #FFA245;
 }
 /* swiper */
 
-
+.card-list{
+    width: 100%;
+}
 .card-list .card-item {
     color: white;
     width: 400px;
@@ -186,20 +191,20 @@ color: #FFA245;
 }
 .slider-wrapper{
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 70px 55px;
    
 }
 .card-item{
     position: relative;
-   
+   overflow: hidden;
 }
 
 .card-item>p{
     position: 
     absolute;
-    bottom: 4%;
-    max-width: 260px;
+    bottom: 2%;
+    max-width: 240px;
     color: black;
     z-index: 1000;
 }
@@ -207,7 +212,8 @@ color: #FFA245;
     position: 
     absolute;
     bottom: 0%;
-    max-width: 400px;
+    height: 200px;
+    max-width: 260px;
 }
 #slimg1{
     background-image: url(c9\ img1.png);
