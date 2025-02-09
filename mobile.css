@@ -1,0 +1,97 @@
+@media(max-width:700px){
+
+    html,body{
+        overflow-x:hidden ;
+    }
+    .src>input{
+        border: none;
+        background: none;   
+    }
+    .src{
+        margin-top: 10px;
+        width:300px;
+    }
+    .navbar-brand{
+        margin-right: 0%;
+    }
+    .btn-light{
+        border: 1px solid grey;
+        width:fit-content;
+        border-radius: 12px;
+    }
+    .col-lg-6{
+        margin-bottom: 8px;
+    }
+    .c1>.row>.col-lg-6{
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+    .btns{
+        width: 400px;
+        justify-content: center;
+    }
+    .c4>.r2{
+        text-align:center;
+    }
+    .c6>.r2{
+        text-align:center;
+    }
+    .c7>.row>.col-lg-5{
+        text-align:center;
+    }
+    .c8>.row>.col-lg-4>h3{
+        transform:translateX(0px);
+    }
+    .c8>.row>.col-lg-4{
+        text-align:center;
+        box-sizing: border-box;
+        padding: 0 10px 0 10px;
+     }
+     .hiden3{
+        display: none;
+     }
+     .c13>.row>.col-lg-4{
+       margin-bottom: 10px;    
+    }
+    .c15>.row>.col-lg-4{
+        text-align:center;
+    }
+    .c15>.row>.col-lg-4>h6{
+        margin-left:0%;
+    }
+    .c15>.row>.col-lg-4>section{
+        margin-left: 0%;
+    }
+    .c15>.row>.col-lg-4{
+       
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .c15>.row>.col-lg-4>h6>b{
+        
+        left:10;
+       }
+      
+        #visa{
+            width: 90%;
+            height: 45px;
+            position: absolute;
+            bottom:0;
+            left:0;
+            margin-bottom: 10px;
+            
+            left:20px;
+        }
+        .c15>.row>.col-lg-4>h6>b{
+            position: absolute;
+            top: 0;
+            left:0px;
+            font-size: 18px;
+           }
+           #chat{
+           height: 40px;
+           bottom: -55px;
+        }
+
+}
