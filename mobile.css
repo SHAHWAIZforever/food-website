@@ -22,11 +22,7 @@
     .col-lg-6{
         margin-bottom: 8px;
     }
-    .c1>.row>.col-lg-6{
-        display: grid;
-        place-items: center;
-        text-align: center;
-    }
+   
     .btns{
         width: 400px;
         justify-content: center;
@@ -98,5 +94,28 @@
         .card-item>p{
             font-size: small;
         }
-
+        .c15>.row>.col-lg-4>h6>b{
+           text-align: center;
+           position: static;
+           }
+           .c1>.row>.col-lg-6{
+            display: grid;
+            place-items: center;
+        }
+        .c1>.row>.col-lg-6>h1{
+    
+            font-weight: 650;
+            text-align:center;
+            width: 100%;
+        }
+        .c1>.row>.col-lg-6>p{
+            width: 100%;
+        }
+        .btns{
+            width: 240px;
+            
+        }
 }
+
+
+
