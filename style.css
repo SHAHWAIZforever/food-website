@@ -76,7 +76,8 @@ color: #FFA245;
     border: none;
     border-radius:32px;
     color: white;
-   padding: 4% 10% 4% 10%;
+   display: grid;
+   place-items: center;
    width:200px;
    height: 65px;
 
