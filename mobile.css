@@ -5,7 +5,11 @@
     }
     .src>input{
         border: none;
-        background: none;   
+        background: none;
+       width: 100%;
+    }
+    .c1>.row>.col-lg-6>p{
+        text-align: center;
     }
     .src{
         margin-top: 10px;
