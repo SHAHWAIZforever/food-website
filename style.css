@@ -62,7 +62,9 @@ border-radius: 50%;
     text-align: left;
     width: 100%;
 }
-
+.c1>.row>.col-lg-6>p{
+    text-align: left;
+}
 .c1>.row>.col-lg-6>h1>b>span{
 color: #FFA245;
 }
